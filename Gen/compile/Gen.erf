@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: d:\Lab2\Gen\src\Corelation.vhd" 
+MESSAGE "Compile Entity "Corelation"" 
+MESSAGE "Compile Architecture "BEH" of Entity "Corelation"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

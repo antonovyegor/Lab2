@@ -1,0 +1,1 @@
+-w -s "d:\Lab2\library.cfg"  -j "d:\Lab2\Gen\projlib.cfg"  -d "d:\Lab2\Gen\compile"   -work Gen  -O3 -e 100 -2002 "d:/Lab2/Gen/src/Corelation.vhd"

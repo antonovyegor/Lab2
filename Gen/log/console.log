@@ -1,0 +1,245 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+acom -O3 -work Gen -2002  $dsn/src/Corelation.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\Lab2\Gen\src\Corelation.vhd
+# Compile Entity "Corelation"
+# Compile Architecture "BEH" of Entity "Corelation"
+# Error: COMP96_0078: Corelation.vhd : (45, 17): Unknown identifier "realsum".
+# Error: COMP96_0133: Corelation.vhd : (45, 17): Cannot find object declaration.
+# Error: COMP96_0149: Corelation.vhd : (45, 17): Explicit type conversions are allowed between closely related types only.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -work Gen -2002  $dsn/src/Corelation.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\Lab2\Gen\src\Corelation.vhd
+# Compile Entity "Corelation"
+# Compile Architecture "BEH" of Entity "Corelation"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+asim -O5 +access +r +m+Corelation Corelation BEH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6195 kB (elbread=1023 elab2=5016 kernel=154 sdf=0)
+# KERNEL: ASDB file was created in location d:\Lab2\Gen\src\wave.asdb
+#  9:02, 25 березня 2019 р.
+#  Simulation has been initialized
+#  Selected Top-Level: Corelation (BEH)
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# 7 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/Lab2/Gen/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+run 500 ns
+# KERNEL: stopped at time: 1 us
+run 500 ns
+# KERNEL: stopped at time: 1500 ns
+run 500 ns
+# KERNEL: stopped at time: 2 us
+run 500 ns
+# KERNEL: stopped at time: 2500 ns
+run 500 ns
+# KERNEL: stopped at time: 3 us
+run 5000 ns
+# KERNEL: stopped at time: 8 us
+run 5000 ns
+# KERNEL: stopped at time: 13 us
+run 5000 ns
+# KERNEL: stopped at time: 18 us
+run 5000 ns
+# KERNEL: stopped at time: 23 us
+run 5000 ns
+# KERNEL: stopped at time: 28 us
+run 5000 ns
+# KERNEL: stopped at time: 33 us
+run 5000 ns
+# KERNEL: stopped at time: 38 us
+run 5000 ns
+# KERNEL: stopped at time: 43 us
+run 5000 ns
+# KERNEL: stopped at time: 48 us
+run 5000 ns
+# KERNEL: stopped at time: 53 us
+run 5000 ns
+# KERNEL: stopped at time: 58 us
+run 5000 ns
+# KERNEL: stopped at time: 63 us
+run 500 ns
+# KERNEL: stopped at time: 63500 ns
+run 500 ns
+# KERNEL: stopped at time: 64 us
+run 500 ns
+# KERNEL: stopped at time: 64500 ns
+run 500 ns
+# KERNEL: stopped at time: 65 us
+run 100 ns
+# KERNEL: stopped at time: 65100 ns
+run 100 ns
+# KERNEL: stopped at time: 65200 ns
+endsim
+#  Simulation has been stopped
+acom -O3 -work Gen -2002  $dsn/src/Corelation.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\Lab2\Gen\src\Corelation.vhd
+# Compile Entity "Corelation"
+# Compile Architecture "BEH" of Entity "Corelation"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim -O5 +access +r +m+Corelation Corelation BEH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6185 kB (elbread=1023 elab2=5006 kernel=154 sdf=0)
+# KERNEL: ASDB file was created in location d:\Lab2\Gen\src\wave.asdb
+#  9:48, 25 березня 2019 р.
+#  Simulation has been initialized
+#  Selected Top-Level: Corelation (BEH)
+# Waveform file 'untitled.awc' connected to 'd:/Lab2/Gen/src/wave.asdb'.
+# 7 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+endsim
+#  Simulation has been stopped
+acom -O3 -work Gen -2002  $dsn/src/Corelation.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\Lab2\Gen\src\Corelation.vhd
+# Compile Entity "Corelation"
+# Compile Architecture "BEH" of Entity "Corelation"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+Corelation Corelation BEH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6187 kB (elbread=1023 elab2=5008 kernel=154 sdf=0)
+# KERNEL: ASDB file was created in location d:\Lab2\Gen\src\wave.asdb
+#  9:52, 25 березня 2019 р.
+#  Simulation has been initialized
+#  Selected Top-Level: Corelation (BEH)
+# Waveform file 'untitled.awc' connected to 'd:/Lab2/Gen/src/wave.asdb'.
+# 7 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 1000 ns
+# KERNEL: stopped at time: 1800 ns
+run 1000 ns
+# KERNEL: stopped at time: 2800 ns
+run 1000 ns
+# KERNEL: stopped at time: 3800 ns
+run 1000 ns
+# KERNEL: stopped at time: 4800 ns
+run 1000 ns
+# KERNEL: stopped at time: 5800 ns
+run 1000 ns
+# KERNEL: stopped at time: 6800 ns
+run 1000 ns
+# KERNEL: stopped at time: 7800 ns
+run 1000 ns
+# KERNEL: stopped at time: 8800 ns
+run 1000 ns
+# KERNEL: stopped at time: 9800 ns
+run 1000 ns
+# KERNEL: stopped at time: 10800 ns
+run 1000 ns
+# KERNEL: stopped at time: 11800 ns
+run 100 ns
+# KERNEL: stopped at time: 11900 ns
+run 100 ns
+# KERNEL: stopped at time: 12 us
+run 100 ns
+# KERNEL: stopped at time: 12100 ns
+run 100 ns
+# KERNEL: stopped at time: 12200 ns
+run 100 ns
+# KERNEL: stopped at time: 12300 ns
+run 100 ns
+# KERNEL: stopped at time: 12400 ns
+run 100 ns
+# KERNEL: stopped at time: 12500 ns
+run 100 ns
+# KERNEL: stopped at time: 12600 ns
+run 100 ns
+# KERNEL: stopped at time: 12700 ns
+run 100 ns
+# KERNEL: stopped at time: 12800 ns
+run 100 ns
+# KERNEL: stopped at time: 12900 ns
+run 100 ns
+# KERNEL: stopped at time: 13 us
+run 100 ns
+# KERNEL: stopped at time: 13100 ns
+#  Simulation has been stopped
