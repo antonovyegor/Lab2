@@ -1,1 +1,1 @@
--w -s "d:\Lab2\library.cfg"  -j "d:\Lab2\Gen\projlib.cfg"  -d "d:\Lab2\Gen\compile"   -work Gen  -O3 -e 100 -2002 "d:/Lab2/Gen/src/Corelation.vhd"
+-w -s "d:\My_Designs\Lab2\library.cfg"  -j "d:\My_Designs\Lab2\Gen\projlib.cfg"  -d "d:\My_Designs\Lab2\Gen\compile"   -work Gen  -O3 -e 100 -2002 "d:/My_Designs/Lab2/Gen/src/LFSR.vhd" "d:/My_Designs/Lab2/Gen/src/RLA.vhd" "d:/My_Designs/Lab2/Gen/src/Main.vhd" "d:/My_Designs/Lab2/Gen/src/Module1.vhd" "d:/My_Designs/Lab2/Gen/src/Corelation.vhd"
