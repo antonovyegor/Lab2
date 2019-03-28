@@ -1,9 +1,11 @@
-568
+776
 ~E 1 "./../src/Corelation.vhd" 8 Corelation
 ~A 1 "./../src/Corelation.vhd" 15 BEH
 ~E 1 "./../src/LFSR.vhd" 5 LFSR
-~A 1 "./../src/LFSR.vhd" 14 BEH
+~A 1 "./../src/LFSR.vhd" 13 BEH
+~E 1 "./../src/Main.vhd" 5 Main
+~A 1 "./../src/Main.vhd" 14 BEH
 ~E 1 "./../src/Module1.vhd" 6 P
 ~A 1 "./../src/Module1.vhd" 13 BEH
 ~E 1 "./../src/RLA.vhd" 5 RLA
-~A 1 "./../src/RLA.vhd" 14 BEH
+~A 1 "./../src/RLA.vhd" 13 BEH

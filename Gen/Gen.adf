@@ -40,7 +40,7 @@ Active_lib=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=   
+HierarchyInformation=corelation|BEH|0 lfsr|BEH|0 main|BEH|0 p|BEH|0 rla|BEH|0    
 ShowHide=ShowTopLevel
 Selected=
 

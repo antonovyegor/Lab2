@@ -1,11 +1,10 @@
 library IEEE;
 use ieee.std_logic_arith.all;
-use ieee.std_logic_1164.all; 
+use ieee.std_logic_1164.all;
 use ieee.math_real.all;
 entity RLA is
 	port (
 		C : in std_logic;
-		RST: in std_logic;
 		In_X : in unsigned(1 to 6);
 		Out_Y : out unsigned(1 to 6)
 	);
@@ -28,8 +27,8 @@ begin
 	end process;
 
 	SUM: process (C)
-	begin  
-		if C'event and C='1'  then 
+	begin
+		if C'event and C='1'  then
 		Y <= conv_unsigned(
 		conv_integer(Y)+
 		(
@@ -41,7 +40,7 @@ begin
 		conv_integer(MemX(6))+
 		conv_integer(MemX(7))+
 		conv_integer(MemX(8))
-		) / 8 
+		) / 8
 		, 6
 		) ;
 
